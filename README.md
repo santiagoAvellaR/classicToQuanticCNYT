@@ -1,0 +1,12 @@
+# Bienvenido a la librería de Sistemas y Juegos Cuánticos
+###### Introducción:
+##### Acontinuación encontrará una librería en la que se encuentran, el juego de las canicas, el sistema probabilístico de rendijas y el problema determinístico de rendijas, además de la función usada para graficar cada uno de los estados de los sistemas. El funcionamiento de la librería es sencillo, las posiciones de las matrices deben de ser tuplas, del estilo (a, b), donde a representa la parte real de un número complejo y b la parte imaginaria. Tras correr cada una de las funciones, automáticamente se descarga en la carpeta donde este el programa, un archivo png en donde se muestra la gráfica de como se verían distribuídas las cajas o los fotones del luz para el caso del experimento de la doble rendija.
+###### Requisitos / Instalación:
+##### Para el correcto uso de la librería se recomienda al usuario descargar los archivos "complexNumbersLibrary.py" y "matrxVectorsLibrary" y "quantumSystems.py"". Ya que entre estos dos se usan librerias de un archivo al otro, importandolas directamente desde el código. Además, para graficar se usó la libreria matplotlib, la cual sí debe de ser instalada previamente. A continuación el enlace a un video sencillo de cómo instalarla en menos de 2 minutos: https://www.youtube.com/watch?v=QONf0jju_os.
+##### **¡Aclaración! En cada una de las funciones, al final se pide un número, este será el último carácter de nombre de los archivos tipo .png, ya que la librería si detecta que ya hay un archivo que se llama así, no descargará la imagen del grafico. Por otro lado, los tests se encuentran divididos, en el juego y los correspondientes sistemas. Por otro lado, cada vez que se ejecute una función, aparecera una ventana emergente con el gráfico, para que el programa se siga ejecutando de manera exitosa, hay que cerrar dichas ventanas emergentes.**
+###### Testeo y ejemplos:
+##### En este caso, primero, para el caso del juego de las canicas, se hicieron dos pruebas cada una con una matriz y un estado inicial diferente. Para el caso del sistema en reales, se realizaron dos pruebas, una con doble rendija y otra con triple rendija. Para la cuántica, se realizaron dos pruebas, ambas con dos rendijas y con diferentes matrices.
+
+###### Autor:
+##### La librería hace parte como un trabajo de la asignatura Ciencias Naturas y Tecnología de la Escuela Colombiana de ingeniería Julio Garavito. Profesor, Luis Daniel Benavides Navarro.
+##### **Mi nombre es Santiago Avellaneda Rodríguez. Soy estudiante de ingeniería de cuarto semestre.**
